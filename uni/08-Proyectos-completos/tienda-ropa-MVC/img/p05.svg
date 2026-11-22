@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Chompa de lana">
+  <rect width="400" height="300" fill="#f3e8dc"/>
+  <circle cx="330" cy="58" r="74" fill="#7a4a26" opacity=".06"/>
+  <circle cx="58" cy="252" r="52" fill="#7a4a26" opacity=".05"/>
+  <g fill="#7a4a26" color="#7a4a26" stroke="#f3e8dc" stroke-width="3" stroke-linejoin="round">
+  <path d="M152 78 L116 96 L98 148 L126 158 L128 228 L272 228 L274 158 L302 148 L284 96 L248 78
+           C248 100 152 100 152 78 Z"/>
+  <path d="M160 130 L240 130 M160 160 L240 160 M160 190 L240 190" fill="none" stroke-width="4"/>
+</g>
+  <text x="200" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        fill="#7a4a26" opacity=".7">Chompa de lana</text>
+</svg>

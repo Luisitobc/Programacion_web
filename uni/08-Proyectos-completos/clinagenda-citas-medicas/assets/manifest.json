@@ -1,0 +1,14 @@
+{
+  "name": "ClinAgenda",
+  "short_name": "ClinAgenda",
+  "description": "Citas de los consultorios de la Dra. Paredes",
+  "lang": "es",
+  "start_url": "../inicio.php",
+  "scope": "../",
+  "display": "standalone",
+  "background_color": "#eef2f4",
+  "theme_color": "#0f6b64",
+  "icons": [
+    { "src": "icono.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

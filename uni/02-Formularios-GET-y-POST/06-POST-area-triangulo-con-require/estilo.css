@@ -1,0 +1,31 @@
+BODY {
+    color: #000099;
+    background-color: #D2EBF7;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+H1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+H2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+H3 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.58em;
+    font-weight: 500;
+}
+
+TD {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    font-weight: 500;
+}

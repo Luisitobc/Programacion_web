@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="agenda.xsl"?>
+
+<agenda>
+	<personaje numero="1">
+	  <nombre>Mortadelo</nombre>
+	  <telefono>666555444</telefono>
+	  <email>mortadelo@tia.com</email>
+	</personaje>
+
+	<personaje numero="2">
+	  <nombre>Filemon Pi</nombre>
+	  <telefono>665544332</telefono>
+	  <email>filemon@tia.com</email>
+	</personaje>
+
+	<personaje numero="3">
+	  <nombre>Superintendente Vicente</nombre>
+	  <telefono>678901234</telefono>
+	  <email>supervicen@tia.com</email>
+	</personaje>
+
+</agenda>

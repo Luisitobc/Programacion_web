@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Jogger">
+  <rect width="400" height="300" fill="#eceae7"/>
+  <circle cx="330" cy="58" r="74" fill="#5c5852" opacity=".06"/>
+  <circle cx="58" cy="252" r="52" fill="#5c5852" opacity=".05"/>
+  <g fill="#5c5852" color="#5c5852" stroke="#eceae7" stroke-width="3" stroke-linejoin="round">
+  <path d="M152 70 L248 70 L252 225 C252 236 240 240 230 236 L206 150 L194 150 L170 236
+           C160 240 148 236 148 225 Z"/>
+  <path d="M152 86 L248 86" fill="none" stroke-width="5"/>
+</g>
+  <text x="200" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        fill="#5c5852" opacity=".7">Jogger</text>
+</svg>

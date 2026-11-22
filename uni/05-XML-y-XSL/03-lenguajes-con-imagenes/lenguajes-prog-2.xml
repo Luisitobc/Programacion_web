@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lenguajes-2.xsl"?>
+
+<lenguajes_programacion>
+
+    <lenguaje nombre="C">
+        <dibujo ruta="c.webp" />
+        <anio_creacion>1972</anio_creacion>
+        <paradigma>Procedural</paradigma>
+        <tipado>Estático y débil</tipado>
+        <creador>Dennis Ritchie</creador>
+        <uso_principal>Sistemas operativos y sistemas embebidos</uso_principal>
+        <web enlace="https://www.c-language.org/" />
+    </lenguaje>
+
+    <lenguaje nombre="Java">
+        <dibujo ruta="java.png" />
+        <anio_creacion>1995</anio_creacion>
+        <paradigma>Orientado a objetos</paradigma>
+        <tipado>Estático y fuerte</tipado>
+        <creador>James Gosling</creador>
+        <uso_principal>Aplicaciones empresariales y Android</uso_principal>
+        <web enlace="https://www.java.com/es/" />
+    </lenguaje>
+
+    <lenguaje nombre="JavaScript">
+        <dibujo ruta="javascript.webp" />
+        <anio_creacion>1995</anio_creacion>
+        <paradigma>Multiparadigma</paradigma>
+        <tipado>Dinámico y débil</tipado>
+        <creador>Brendan Eich</creador>
+        <uso_principal>Desarrollo web frontend y backend</uso_principal>
+        <web enlace="https://developer.mozilla.org/es/docs/Web/JavaScript" />
+    </lenguaje>
+
+    <lenguaje nombre="C++">
+        <dibujo ruta="cpp.webp" />
+        <anio_creacion>1985</anio_creacion>
+        <paradigma>Multiparadigma</paradigma>
+        <tipado>Estático y fuerte</tipado>
+        <creador>Bjarne Stroustrup</creador>
+        <uso_principal>Software de alto rendimiento y videojuegos</uso_principal>
+        <web enlace="https://isocpp.org/" />
+    </lenguaje>
+
+    <lenguaje nombre="C#">
+        <dibujo ruta="csharp.webp" />
+        <anio_creacion>2000</anio_creacion>
+        <paradigma>Multiparadigma</paradigma>
+        <tipado>Estático y fuerte</tipado>
+        <creador>Anders Hejlsberg</creador>
+        <uso_principal>Aplicaciones de escritorio, servicios web y videojuegos con Unity</uso_principal>
+        <web enlace="https://learn.microsoft.com/es-es/dotnet/csharp/" />
+    </lenguaje>
+
+    <lenguaje nombre="Go">
+        <dibujo ruta="golang.png" />
+        <anio_creacion>2009</anio_creacion>
+        <paradigma>Procedural y concurrente</paradigma>
+        <tipado>Estático y fuerte</tipado>
+        <creador>Robert Griesemer, Rob Pike y Ken Thompson</creador>
+        <uso_principal>Sistemas distribuidos y servicios en la nube</uso_principal>
+        <web enlace="https://go.dev/" />
+    </lenguaje>
+
+    <lenguaje nombre="Rust">
+        <dibujo ruta="rust.webp" />
+        <anio_creacion>2010</anio_creacion>
+        <paradigma>Multiparadigma</paradigma>
+        <tipado>Estático y fuerte</tipado>
+        <creador>Graydon Hoare</creador>
+        <uso_principal>Sistemas de bajo nivel con seguridad de memoria</uso_principal>
+        <web enlace="https://www.rust-lang.org/es" />
+    </lenguaje>
+
+    <lenguaje nombre="Kotlin">
+        <dibujo ruta="kotlin.webp" />
+        <anio_creacion>2011</anio_creacion>
+        <paradigma>Multiparadigma</paradigma>
+        <tipado>Estático y fuerte</tipado>
+        <creador>JetBrains</creador>
+        <uso_principal>Desarrollo de aplicaciones Android</uso_principal>
+        <web enlace="https://kotlinlang.org/" />
+    </lenguaje>
+
+    <lenguaje nombre="Ruby">
+        <dibujo ruta="ruby.webp" />
+        <anio_creacion>1995</anio_creacion>
+        <paradigma>Multiparadigma</paradigma>
+        <tipado>Dinámico y fuerte</tipado>
+        <creador>Yukihiro Matsumoto</creador>
+        <uso_principal>Desarrollo web con Ruby on Rails</uso_principal>
+        <web enlace="https://www.ruby-lang.org/es/" />
+    </lenguaje>
+
+    <lenguaje nombre="PHP">
+        <dibujo ruta="php.png" />
+        <anio_creacion>1995</anio_creacion>
+        <paradigma>Multiparadigma</paradigma>
+        <tipado>Dinámico y débil</tipado>
+        <creador>Rasmus Lerdorf</creador>
+        <uso_principal>Desarrollo web del lado del servidor</uso_principal>
+        <web enlace="https://www.php.net/" />
+    </lenguaje>
+
+</lenguajes_programacion>

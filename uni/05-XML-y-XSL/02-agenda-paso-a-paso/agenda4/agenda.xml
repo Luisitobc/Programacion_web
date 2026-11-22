@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="agenda.xsl"?>
+
+<agenda>
+<personaje numero="1">
+  <nombre>Mortadelo</nombre>
+  <telefono>666555444</telefono>
+  <email>mortadelo@tia.com</email>
+  <web enlace="https://mortadelo.fandom.com/es/wiki/Superintendente_Vicente">
+    web oficial</web>
+</personaje>
+
+<personaje numero="2">
+  <nombre>Filemon Pi</nombre>
+  <telefono>665544332</telefono>
+  <email>filemon@tia.com</email>
+  <web enlace="https://www.pinterest.es/pin/845902742495867843/">
+    Los personajes</web>
+</personaje>
+
+<personaje numero="3">
+  <nombre>Superintendente Vicente</nombre>
+  <telefono>678901234</telefono>
+  <email>supervicen@tia.com</email>
+  <web enlace="https://mortadelo-filemon.es/content?q=Y2F0X2lkPTQ4JmN0Z19pZD0xMDgmcG09YmxvZyZvZmZzZXQ9MCYmb2Zmc2V0PTc%3D#.Y_9ucXbMLIU">
+    Juegos</web>
+</personaje>
+
+</agenda>

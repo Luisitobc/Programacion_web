@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lenguajes de programación</title>
+</head>
+
+<body>
+
+    <h1>Lenguajes de programación</h1>
+
+    <div id="lenguajes"></div>
+
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xhttp.open("GET", "lenguajes.xml", true);
+            xhttp.send();
+        }
+
+        function texto(padre, etiqueta) {
+            return padre.getElementsByTagName(etiqueta)[0].childNodes[0].nodeValue;
+        }
+
+        function atributo(padre, etiqueta, nombre) {
+            return padre.getElementsByTagName(etiqueta)[0].getAttribute(nombre);
+        }
+
+        function myFunction(xml) {
+            var i;
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName("lenguaje");
+            var salida = "";
+
+            for (i = 0; i < x.length; i++) {
+                var enlace = atributo(x[i], "web", "enlace");
+
+                salida += "<div class='lenguaje' style='float: left; width: 520px; height: 300px;'>" +
+                    "<h3>Lenguaje: " + x[i].getAttribute("nombre") + "</h3>" +
+                    "<div style='width: 140px; float: left;'>" +
+                    "<img src='" + atributo(x[i], "dibujo", "ruta") + "' height='100' alt='" + x[i].getAttribute("nombre") + "'>" +
+                    "</div>" +
+                    "<ul style='float: left; width: 320px;'>" +
+                    "<li>" + texto(x[i], "anio_creacion") + "</li>" +
+                    "<li>" + texto(x[i], "paradigma") + "</li>" +
+                    "<li>" + texto(x[i], "tipado") + "</li>" +
+                    "<li>" + texto(x[i], "creador") + "</li>" +
+                    "<li>" + texto(x[i], "uso_principal") + "</li>" +
+                    "<li><a href='" + enlace + "'>" + enlace + "</a></li>" +
+                    "</ul>" +
+                    "</div>";
+            }
+            document.getElementById("lenguajes").innerHTML = salida;
+        }
+
+        loadDoc()
+    </script>
+
+</body>
+
+</html>

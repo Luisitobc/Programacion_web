@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Polo piqué">
+  <rect width="400" height="300" fill="#e8eef5"/>
+  <circle cx="330" cy="58" r="74" fill="#2a4f7c" opacity=".06"/>
+  <circle cx="58" cy="252" r="52" fill="#2a4f7c" opacity=".05"/>
+  <g fill="#2a4f7c" color="#2a4f7c" stroke="#e8eef5" stroke-width="3" stroke-linejoin="round">
+  <path d="M150 80 L120 95 L105 140 L130 150 L132 220 L268 220 L270 150 L295 140 L280 95 L250 80
+           C250 100 150 100 150 80 Z"/>
+
+  <path d="M192 82 L200 112 L208 82" fill="none" stroke-width="5"/>
+  <circle cx="200" cy="128" r="3.2" fill="none" stroke-width="3"/>
+  <circle cx="200" cy="144" r="3.2" fill="none" stroke-width="3"/>
+</g>
+  <text x="200" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        fill="#2a4f7c" opacity=".7">Polo piqué</text>
+</svg>

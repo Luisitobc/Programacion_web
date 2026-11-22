@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title> *********Formulario que recoge datos *****</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../estilos.css" />
+    <script src="../validaciones.js"></script>
+    <script src="../sesion.js"></script>
+</head>
+
+<body>
+    <header class="encabezado">
+        <a class="marca" href="../index.html"><span class="logo">&lt;/&gt;</span> Lenguajes de programación</a>
+        <nav class="navegacion">
+            <a href="../index.html">Inicio</a>
+            <a href="../ingreso/ingresar-datos.html">Ingresar</a>
+            <a href="../consulta/consultar-datos.html">Consultar</a>
+            <a href="../actualizacion/actualizar-datos.html">Actualizar</a>
+            <a href="../eliminar/eliminar-datos.html">Eliminar</a>
+        </nav>
+    </header>
+
+    <main class="cuerpo">
+        <div class="tarjeta">
+            <a class="volver" href="../index.html">← Volver al menú</a>
+
+            <h1>Ingrese los siguientes datos</h1>
+            <form action="PDO-ingreso.php" method="post">
+                <label>Nombre del lenguaje</label>
+                <input type="text" name="nombre" data-regla="nombre" placeholder="Ej.: C++" required />
+                <small class="ayuda">Una sola palabra, sin espacios.</small>
+                <label>Fecha de creación</label>
+                <input type="date" name="anio" data-regla="fecha" placeholder="" required />
+                <small class="ayuda">Entre 1940 y hoy.</small>
+                <label>Creador</label>
+                <input type="text" name="creador" data-regla="creador" placeholder="Ej.: Dennis Ritchie" required />
+                <small class="ayuda">Solo letras y espacios simples.</small>
+                <label>Tipado</label>
+                <input type="text" name="tipado" data-regla="tipado" placeholder="Ej.: Estático, fuerte" required />
+                <small class="ayuda">Solo letras, coma y guion.</small>
+                <label>Uso principal</label>
+                <input type="text" name="uso" data-regla="uso" placeholder="Ej.: Sistemas operativos" required />
+                <small class="ayuda">Letras, números y . , / ( ) + # -</small>
+                <input type="submit" value="enviar" />
+            </form>
+        </div>
+    </main>
+
+    <footer class="pie">
+        <span>Base de datos: bd-lenguajesprog</span>
+        <span>PHP + PDO + MySQL · Ejercicio 3</span>
+    </footer>
+</body>
+
+</html>

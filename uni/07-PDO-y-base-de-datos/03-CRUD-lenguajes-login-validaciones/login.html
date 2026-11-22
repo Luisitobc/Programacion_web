@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title> *********Iniciar sesión *****</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="estilos.css" />
+    <script>
+        // si ya hay sesión, va directo al menú
+        if (/(?:^|; )sesion=/.test(document.cookie)) location.replace("index.html");
+    </script>
+</head>
+
+<body>
+    <header class="encabezado">
+        <a class="marca" href="login.html"><span class="logo">&lt;/&gt;</span> Lenguajes de programación</a>
+    </header>
+
+    <main class="cuerpo">
+        <div class="tarjeta">
+            <h1>Iniciar sesión</h1>
+            <h2>Ingrese sus credenciales para continuar</h2>
+
+            <div id="error" class="mensaje error" style="display:none">Usuario o contraseña incorrectos.</div>
+
+            <form action="login.php" method="post">
+                <label>Usuario</label>
+                <input type="text" name="usuario" placeholder="Ej.: alejandro" autocomplete="username" required />
+                <label>Contraseña</label>
+                <input type="password" name="clave" placeholder="Su contraseña" autocomplete="current-password" required />
+                <input type="submit" value="ingresar" />
+            </form>
+        </div>
+    </main>
+
+    <footer class="pie">
+        <span>Base de datos: bd-lenguajesprog</span>
+        <span>PHP + PDO + MySQL · Ejercicio 3</span>
+    </footer>
+
+    <script>
+        if (location.search.indexOf("error") !== -1) document.getElementById("error").style.display = "block";
+    </script>
+</body>
+
+</html>

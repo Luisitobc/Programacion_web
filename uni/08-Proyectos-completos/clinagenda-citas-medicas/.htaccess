@@ -1,0 +1,7 @@
+# Lo que no es una pantalla no se sirve por el navegador:
+# el registro de errores, los .sql (tienen los hash de las contraseñas de demo),
+# los documentos y el lanzador.
+<FilesMatch "\.(log|sql|md|bat|txt)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes

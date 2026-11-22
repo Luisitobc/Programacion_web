@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Gorra bordada">
+  <rect width="400" height="300" fill="#f5efe2"/>
+  <circle cx="330" cy="58" r="74" fill="#9a7b43" opacity=".06"/>
+  <circle cx="58" cy="252" r="52" fill="#9a7b43" opacity=".05"/>
+  <g fill="#9a7b43" color="#9a7b43" stroke="#f5efe2" stroke-width="3" stroke-linejoin="round">
+  <path d="M110 180 C110 120 150 88 200 88 C250 88 290 120 290 180 Z"/>
+  <path d="M100 180 L310 180 C310 200 280 206 250 204 L100 196 Z"/>
+  <circle cx="200" cy="96" r="7" fill="none" stroke-width="4"/>
+</g>
+  <text x="200" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        fill="#9a7b43" opacity=".7">Gorra bordada</text>
+</svg>

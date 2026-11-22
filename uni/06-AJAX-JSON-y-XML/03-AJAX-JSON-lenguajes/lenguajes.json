@@ -1,0 +1,104 @@
+{
+    "lenguajes": [
+        {
+            "nombre": "C",
+            "imagenes": "../img/c.webp",
+            "anio_creacion": "1972",
+            "paradigma": "Procedural",
+            "tipado": "Estático y débil",
+            "creador": "Dennis Ritchie",
+            "uso_principal": "Sistemas operativos y sistemas embebidos",
+            "web": "https://www.c-language.org/"
+        },
+        {
+            "nombre": "Java",
+            "imagenes": "../img/java.png",
+            "anio_creacion": "1995",
+            "paradigma": "Orientado a objetos",
+            "tipado": "Estático y fuerte",
+            "creador": "James Gosling",
+            "uso_principal": "Aplicaciones empresariales y Android",
+            "web": "https://www.java.com/es/"
+        },
+        {
+            "nombre": "JavaScript",
+            "imagenes": "../img/javascript.webp",
+            "anio_creacion": "1995",
+            "paradigma": "Multiparadigma",
+            "tipado": "Dinámico y débil",
+            "creador": "Brendan Eich",
+            "uso_principal": "Desarrollo web frontend y backend",
+            "web": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+        },
+        {
+            "nombre": "C++",
+            "imagenes": "../img/cpp.webp",
+            "anio_creacion": "1985",
+            "paradigma": "Multiparadigma",
+            "tipado": "Estático y fuerte",
+            "creador": "Bjarne Stroustrup",
+            "uso_principal": "Software de alto rendimiento y videojuegos",
+            "web": "https://isocpp.org/"
+        },
+        {
+            "nombre": "C#",
+            "imagenes": "../img/csharp.webp",
+            "anio_creacion": "2000",
+            "paradigma": "Multiparadigma",
+            "tipado": "Estático y fuerte",
+            "creador": "Anders Hejlsberg",
+            "uso_principal": "Aplicaciones de escritorio, servicios web y videojuegos con Unity",
+            "web": "https://learn.microsoft.com/es-es/dotnet/csharp/"
+        },
+        {
+            "nombre": "Go",
+            "imagenes": "../img/golang.png",
+            "anio_creacion": "2009",
+            "paradigma": "Procedural y concurrente",
+            "tipado": "Estático y fuerte",
+            "creador": "Robert Griesemer, Rob Pike y Ken Thompson",
+            "uso_principal": "Sistemas distribuidos y servicios en la nube",
+            "web": "https://go.dev/"
+        },
+        {
+            "nombre": "Rust",
+            "imagenes": "../img/rust.webp",
+            "anio_creacion": "2010",
+            "paradigma": "Multiparadigma",
+            "tipado": "Estático y fuerte",
+            "creador": "Graydon Hoare",
+            "uso_principal": "Sistemas de bajo nivel con seguridad de memoria",
+            "web": "https://www.rust-lang.org/es"
+        },
+        {
+            "nombre": "Kotlin",
+            "imagenes": "../img/kotlin.webp",
+            "anio_creacion": "2011",
+            "paradigma": "Multiparadigma",
+            "tipado": "Estático y fuerte",
+            "creador": "JetBrains",
+            "uso_principal": "Desarrollo de aplicaciones Android",
+            "web": "https://kotlinlang.org/"
+        },
+        {
+            "nombre": "Ruby",
+            "imagenes": "../img/ruby.webp",
+            "anio_creacion": "1995",
+            "paradigma": "Multiparadigma",
+            "tipado": "Dinámico y fuerte",
+            "creador": "Yukihiro Matsumoto",
+            "uso_principal": "Desarrollo web con Ruby on Rails",
+            "web": "https://www.ruby-lang.org/es/"
+        },
+        {
+            "nombre": "PHP",
+            "imagenes": "../img/php.png",
+            "anio_creacion": "1995",
+            "paradigma": "Multiparadigma",
+            "tipado": "Dinámico y débil",
+            "creador": "Rasmus Lerdorf",
+            "uso_principal": "Desarrollo web del lado del servidor",
+            "web": "https://www.php.net/"
+        }
+    ]
+}

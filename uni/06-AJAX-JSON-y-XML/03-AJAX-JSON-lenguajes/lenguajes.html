@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lenguajes de programación</title>
+</head>
+
+<body>
+
+    <h1>Lenguajes de programación</h1>
+
+    <div id="lenguajes"></div>
+
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xhttp.open("GET", "lenguajes.json", true);
+            xhttp.send();
+        }
+
+        function myFunction(xhr) {
+            var datos = JSON.parse(xhr.responseText);
+            var lenguajes = datos.lenguajes;
+            var salida = "";
+
+            for (var i = 0; i < lenguajes.length; i++) {
+                var l = lenguajes[i];
+
+                salida += "<div class='lenguaje' style='float: left; width: 520px; height: 300px;'>" +
+                    "<h3>Lenguaje: " + l.nombre + "</h3>" +
+                    "<div style='width: 140px; float: left;'>" +
+                    "<img src='" + l.imagenes + "' height='100' alt='" + l.nombre + "'>" +
+                    "</div>" +
+                    "<ul style='float: left; width: 320px;'>" +
+                    "<li>" + l.anio_creacion + "</li>" +
+                    "<li>" + l.paradigma + "</li>" +
+                    "<li>" + l.tipado + "</li>" +
+                    "<li>" + l.creador + "</li>" +
+                    "<li>" + l.uso_principal + "</li>" +
+                    "<li><a href='" + l.web + "'>" + l.web + "</a></li>" +
+                    "</ul>" +
+                    "</div>";
+            }
+            document.getElementById("lenguajes").innerHTML = salida;
+        }
+
+        window.onload = loadDoc;
+    </script>
+
+</body>
+
+</html>

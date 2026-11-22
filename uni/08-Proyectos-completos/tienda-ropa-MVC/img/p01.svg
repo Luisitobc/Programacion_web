@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Camiseta básica">
+  <rect width="400" height="300" fill="#f4efe6"/>
+  <circle cx="330" cy="58" r="74" fill="#2f2c27" opacity=".06"/>
+  <circle cx="58" cy="252" r="52" fill="#2f2c27" opacity=".05"/>
+  <g fill="#2f2c27" color="#2f2c27" stroke="#f4efe6" stroke-width="3" stroke-linejoin="round">
+  <path d="M150 80 L120 95 L105 140 L130 150 L132 220 L268 220 L270 150 L295 140 L280 95 L250 80
+           C250 100 150 100 150 80 Z"/>
+</g>
+  <text x="200" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        fill="#2f2c27" opacity=".7">Camiseta básica</text>
+</svg>

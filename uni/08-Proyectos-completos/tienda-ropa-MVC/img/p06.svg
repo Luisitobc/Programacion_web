@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Casaca">
+  <rect width="400" height="300" fill="#e9e9ea"/>
+  <circle cx="330" cy="58" r="74" fill="#26262a" opacity=".06"/>
+  <circle cx="58" cy="252" r="52" fill="#26262a" opacity=".05"/>
+  <g fill="#26262a" color="#26262a" stroke="#e9e9ea" stroke-width="3" stroke-linejoin="round">
+  <path d="M152 78 L116 96 L100 150 L128 160 L130 230 L270 230 L272 160 L300 150 L284 96 L248 78
+           C248 98 152 98 152 78 Z"/>
+  <path d="M200 92 L200 230" fill="none" stroke-width="5"/>
+  <path d="M176 84 L200 108 L224 84" fill="none" stroke-width="5"/>
+</g>
+  <text x="200" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        fill="#26262a" opacity=".7">Casaca</text>
+</svg>

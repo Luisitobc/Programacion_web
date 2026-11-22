@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Vestido floral">
+  <rect width="400" height="300" fill="#e8f0e8"/>
+  <circle cx="330" cy="58" r="74" fill="#3f6b4a" opacity=".06"/>
+  <circle cx="58" cy="252" r="52" fill="#3f6b4a" opacity=".05"/>
+  <g fill="#3f6b4a" color="#3f6b4a" stroke="#e8f0e8" stroke-width="3" stroke-linejoin="round">
+  <path d="M166 76 L150 104 L172 118 L132 232 L268 232 L228 118 L250 104 L234 76
+           C230 96 170 96 166 76 Z"/>
+  <path d="M172 150 L228 150" fill="none" stroke-width="5"/>
+</g>
+  <text x="200" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        fill="#3f6b4a" opacity=".7">Vestido floral</text>
+</svg>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago semanal del empleado</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Pago semanal</h1>
+        <form action="pagoempleado.php" method="POST">
+            <label for="nombre"> Nombre del empleado:  </label>
+            <input type="text" id="nombre" name="nombre" required >
+            <label for="horas"> Horas trabajadas: </label>
+            <input type="number" id="horas" name="horas" min="0" required >
+            <label for="valorHora"> Valor de la hora normal: </label>
+            <input type="number" id="valorHora" name="valorHora" min="0" step="0.01" required>
+            <button type="submit" name="calcular"> Calcular pago </button>
+        </form>
+    </div>
+</body>
+</html>

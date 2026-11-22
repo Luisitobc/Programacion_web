@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Bufanda alpaca">
+  <rect width="400" height="300" fill="#f8ece3"/>
+  <circle cx="330" cy="58" r="74" fill="#b4542f" opacity=".06"/>
+  <circle cx="58" cy="252" r="52" fill="#b4542f" opacity=".05"/>
+  <g fill="#b4542f" color="#b4542f" stroke="#f8ece3" stroke-width="3" stroke-linejoin="round">
+  <path d="M96 118 C150 96 182 150 236 128 C268 116 290 112 310 120 L310 164
+           C286 158 266 160 240 172 C186 196 150 142 96 164 Z"/>
+  <path d="M100 166 L100 196 M112 166 L112 198 M124 168 L124 196
+           M298 122 L298 152 M286 124 L286 154 M310 122 L310 152"
+        fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+</g>
+  <text x="200" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        fill="#b4542f" opacity=".7">Bufanda alpaca</text>
+</svg>

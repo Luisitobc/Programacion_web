@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php  
+$numero = $_POST["numero"];
+
+for ($i = 1; $i <= $numero; $i++) {
+    echo $i . "<br/>";
+}
+?>  
+
+</body>
+</html>

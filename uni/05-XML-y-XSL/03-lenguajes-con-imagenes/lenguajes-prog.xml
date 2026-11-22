@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lenguajes.xsl"?>
+<lenguajes_programacion>
+  <lenguaje nombre="Python">
+    <anio_creacion>1991</anio_creacion>
+    <paradigma>Multiparadigma</paradigma>
+    <tipado>Dinámico y fuerte</tipado>
+    <creador>Guido van Rossum</creador>
+    <uso_principal>Ciencia de datos, automatización y backend</uso_principal>
+  </lenguaje>
+</lenguajes_programacion> 
